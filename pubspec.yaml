@@ -1,0 +1,69 @@
+name: ientc_jdls
+description: "Proyecto desarrollado como pueba de IENTC"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+#LIBS
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: 
+  cupertino_icons:
+  http: 
+  flutter_bloc: ^8.1.0
+
+#DEPS
+ 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+#ASSETS
+
+  assets:
+     - assets/
+   
+#FONTS
+
+  fonts:
+
+    - family: Daniel-Black
+      fonts:
+        - asset: fonts/Commissioner-Black.ttf
+          style: italic 
+
+    - family: Daniel-Bold
+      fonts:
+        - asset: fonts/Commissioner-Bold.ttf
+          style: italic 
+
+    - family: Daniel-Light
+      fonts:
+        - asset: fonts/Commissioner-Light.ttf
+          style: italic 
+
+    - family: Daniel-Regular
+      fonts:
+        - asset: fonts/Commissioner-Regular.ttf
+          style: italic 
+
+    - family: Daniel-Semibold
+      fonts:
+        - asset: fonts/Commissioner-SemiBold.ttf
+          style: italic 
+
+    - family: Daniel-Thin
+      fonts:
+        - asset: fonts/Commissioner-Thin.ttf
+          style: italic 
